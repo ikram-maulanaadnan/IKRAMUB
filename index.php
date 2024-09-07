@@ -30,7 +30,7 @@
             if($_GET['notif'] == 'kirimberhasil'): ?>
                 <p>Your message has been sent. Thank you!</p>
             <?php elseif($_GET['notif'] == 'kirimgagal'): ?>
-                <p>Failed to send your message. Please try again.</p>
+          <p>pesan gagal</p>;
             <?php endif; 
         endif;?> 
     </div>
